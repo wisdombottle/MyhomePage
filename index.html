@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여행 블로그</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <img src="img/back.jpg.jpg" alt="여행 블로그 이미지">
+        </div>
+
+        <div class="container">
+            <h1>여행 블로그</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">홈</a></li>
+                    <li><a href="#posts">블로그 글</a></li>
+                    <li><a href="ai.html">소개</a></li>
+                    <li><a href="#contact">연락처</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <!-- 여행 일정표 추가 -->
+        <section id="itinerary">
+            <div class="container">
+                <h2>일주일 여행 일정표</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>날짜</th>
+                            <th>일정</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2024년 9월 1일</td>
+                            <td>출발 및 첫 번째 도시 도착</td>
+                        </tr>
+                        <tr>
+                            <td>2024년 9월 2일</td>
+                            <td>관광지 방문 및 지역 식사</td>
+                        </tr>
+                        <tr>
+                            <td>2024년 9월 3일</td>
+                            <td>자유 시간 및 쇼핑</td>
+                        </tr>
+                        <tr>
+                            <td>2024년 9월 4일</td>
+                            <td>둘째 도시로 이동</td>
+                        </tr>
+                        <tr>
+                            <td>2024년 9월 5일</td>
+                            <td>관광지 및 박물관 방문</td>
+                        </tr>
+                        <tr>
+                            <td>2024년 9월 6일</td>
+                            <td>해변에서 휴식</td>
+                        </tr>
+                        <tr>
+                            <td>2024년 9월 7일</td>
+                            <td>귀국 준비 및 출발</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    <section id="home">
+        <div class="container">
+            <h2>환영합니다!</h2>
+            <p>여행의 즐거움을 함께 나누는 곳입니다. 다양한 여행지의 정보와 팁을 확인해보세요.</p>
+        </div>
+    </section>
+    
+    <section id="posts">
+        <div class="container">
+            <h2>최신 블로그 글</h2>
+            <div class="post">
+                <h3>파리 여행기</h3>
+                <p>파리의 명소와 맛집을 소개합니다. 아름다운 에펠탑과 로맨틱한 세느강을 만끽해 보세요.</p>
+                <a href="#">자세히 보기</a>
+            </div>
+            <div class="post">
+                <h3>도쿄 탐방</h3>
+                <p>도쿄의 흥미로운 관광지와 먹거리를 탐험하는 이야기입니다. 일본의 문화와 분위기를 느껴보세요.</p>
+                <a href="#">자세히 보기</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>블로그 소개</h2>
+            <p>이 블로그는 여행을 사랑하는 사람들을 위한 공간입니다. 다양한 여행지의 정보와 팁을 공유하고자 합니다.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>연락처</h2>
+            <form id="contact-form">
+                <label for="name">이름:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">이메일:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">메시지:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">보내기</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 여행 블로그. 모든 권리 보유.</p>
+        </div>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
